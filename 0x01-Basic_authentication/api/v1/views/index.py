@@ -27,7 +27,7 @@ def forbid() -> str:
 def status() -> str:
     """ GET /api/v1/status
     Return:
-      - the status of the API
+      - the status of API
     """
     return jsonify({"status": "OK"})
 
